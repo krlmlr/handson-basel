@@ -10,5 +10,7 @@ x <- cos(k*t)*cos(t)
 y <- cos(k*t)*sin(t)
 
 plot(x,y, type="l", col="red")
-points(x+0.1,y, type = "l", col = "yellow")
+points(x+0.1,y, type = "l", col = "black")
+points(x+0.05,y, type = "l", col = "yellow")
+
 
